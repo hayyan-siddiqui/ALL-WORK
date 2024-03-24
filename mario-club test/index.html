@@ -1,0 +1,347 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marioclub</title>
+    <style>
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#header{
+    background-color: red;
+   height: 80px;
+}
+#header button {
+     color:white;
+     text-align: center;
+     border: 7px solid white;
+     margin-left: 600px;
+     background-color: transparent;
+     font-weight: 800;
+     font-size: 20px;
+     margin-top: 15px;
+     border-radius: 50px; 
+     padding-bottom: 05px;
+     padding-top: 5px;
+}
+#mario-image{
+background-image: url('html/html/assets/images/banner.png');
+margin-bottom: 0px;
+height:105%;
+background-size: 100%;
+background-repeat: no-repeat;
+}
+#text{
+    position: absolute;
+color: white;
+    background-color: #feb614;
+    top: 199px;
+    width: 35%;
+    height: 88px;
+    left: 0px;
+    padding-left: 40px;
+    padding-bottom: 150px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+#text h3{
+    font-size:74px;
+}
+#text h4{
+    font-size: 100px;
+    margin-bottom:40px ;
+}
+#nav{
+height: 50px;
+background-color: #f4f4f4;
+padding-left: 180px;
+padding-right:190px ;
+padding-bottom: 20px;
+}
+#nav li{
+    list-style-type: none;
+    float: left;
+    margin-right:90px;
+    margin-top: 20px;
+    color:#4b4b4b;
+    font-size: 30px;
+    font-weight: 500;
+}
+#nav li :last-child{
+margin-right: 0px;
+}
+#main-section{
+    padding-left: 150px;
+    padding-right: 120px;
+    padding-bottom: 100px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+#section-container h3{
+    color: red;
+    font-size: 30px;
+    font-weight: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#section-container p{
+    font-size: 20px;
+     text-align:left;
+     margin-bottom: 40px;
+     padding-right: 12px;
+     line-height: 30px;
+     margin-top: 12px;
+
+}
+#section-container img{
+    float: right;
+    width: 45%;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+#center{
+    margin-top: 30px;
+    padding-bottom: 100px;
+    padding-top: 40px;
+    background-color: #f4f4f4;
+    text-align: center;
+    height: 100px;
+
+
+}
+#center h1{
+    color: #4b4b4b;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+#center p{
+padding-top: 12px;
+padding-bottom: 25px;
+font-size: 18px;
+color: #4b4b6f;
+}
+#center button{
+    margin-top: 12px;
+    border: none;
+    color: #757575;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    font-size: 28px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    
+    border-color:#ffffff;
+}
+footer{
+    background-color: #f63232;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    color: white;
+}
+span{
+    color: red;
+} 
+@media(max-width:500px){
+    #header{
+    background-color: red;
+   height: 70px;
+}
+#header button {
+     color:white;
+     text-align: center;
+     border: 7px solid white;
+     background-color: transparent;
+     margin-left: 200px;
+     font-size: 10px;
+     margin-top: 15px;
+     border-radius: 50px; 
+     padding-bottom: 05px;
+     padding-top: 5px;
+}
+#mario-image{
+background-image: url('html/html/assets/images/banner.png');
+height:45%;
+background-size: 100%;
+
+position: relative;
+background-repeat: no-repeat;
+}
+#text{
+    position: absolute;
+color: white;
+    background-color: #feb614;
+    top: 40px;
+    width: 35%;
+    height: 30%;
+    left: 0px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+#text h3{
+    font-size:30px;
+    margin-bottom: 10px;
+}
+#text h4{
+    font-size: 30px;
+    margin-bottom:10px ;
+}
+#nav{
+height: 230px;
+background-color: #f4f4f4;
+padding-left: 80px;
+padding-right:90px ;
+padding-bottom: 0px;
+margin-top: -45px;
+}
+#nav li{
+    
+    width: 100%;
+    text-align:center;
+    margin-top: 20px;
+    color:#4b4b4b;
+    font-size: 30px;
+    font-weight: 500;
+}
+#nav li :last-child{
+margin-right: 0px;
+}
+#main-section{
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+#section-container h3{
+    color: red;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 300px;
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#section-container p{
+    font-size: 16px;
+     text-align:left;
+     line-height: 20px;
+     margin-bottom: 12px;
+     line-height: 30px;
+     padding-right: 12px;
+     margin-top: 12px;
+
+}
+#section-container img{
+   
+    width: 80%;
+  padding-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#center{
+    margin-top: 20px;
+    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-left:10px ;
+     padding-right:10px ;
+    background-color: #f4f4f4;
+    text-align: center;
+    height: 80px;
+
+
+}
+#center h1{
+    color: #4b4b4b;
+    font-size: 26px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+#center p{
+padding-top: 8px;
+padding-bottom: 8px;
+font-size: 16px;
+color: #4b4b6f;
+}
+#center button{
+    margin-top: 8px;
+    border: none;
+    color: #757575;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    
+    border-color:#ffffff;
+}
+footer{
+    background-color: #f63232;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+}
+
+
+
+
+
+ </style>
+</head>
+<body>
+   <div id="header">
+   <button>Marioclub</button>
+   </div> 
+<div id="mario-image">
+<div id="text">
+<h3>Welcome to</h3>
+<h4>Marioclub</h4>
+</div>
+
+</div>
+<div id="nav">
+<li><span>Join the club</span></li>
+<li>Latest News</li>
+<li>New Games</li>
+<li>Contact</li>
+</div>
+<div id="main-section" class="clearfix">
+<div id="section-container" class="clearfix">
+<h3>It's a me,Mario</h3>
+<p> <b>Lorem Ipsum is simply dummy text of the printing  setting industry Lorem Ipsum has been the industry's </b> standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not  only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of  Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum  Lorem Ipsum is simply dummy text of the printing and type setting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<img src="html/html/assets/images/thumb-1.png" alt="">
+<img src="html/html/assets/images/thumb-2.png" alt="">
+</div>
+
+</div>
+<div id="center">
+<h1>JOIN TODAY!</h1>
+<p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+<button>Type email & hit enter</button>
+
+</div>
+<footer>
+    <p>Copyright 2019 Marioclub</p>
+</footer>
+</body>
+</html>

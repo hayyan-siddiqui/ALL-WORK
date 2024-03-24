@@ -1,0 +1,18 @@
+#sidebar{
+    background-color: #bd5d38;
+    height: 100vh;
+   top: 0px;
+   left: 0px;
+}
+#sidebar ul li{
+    list-style-type: none;
+    cursor: pointer;
+    color: #e1b6a5;
+
+}
+#sidebar ul li:hover{
+    color: white;
+}
+#profile-image{
+    border: 10px solid #ca7d60;
+}
